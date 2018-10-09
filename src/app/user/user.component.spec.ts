@@ -1,6 +1,4 @@
-/* tslint:disable:no-unused-variable */
-
-import { TestBed, async, fakeAsync, tick } from '@angular/core/testing';
+/* import { TestBed, async, fakeAsync, tick } from '@angular/core/testing';
 import { UserComponent } from './user.component';
 import { UserService } from "./user.service";
 import { DataService } from "../shared/data.service";
@@ -77,3 +75,4 @@ describe('Component: User', () => {
 
   }));
 });
+ */

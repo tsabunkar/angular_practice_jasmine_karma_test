@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'This is the title properties value';
+  empname: string = "Tejas";
+  isMarried: boolean = false;
+  age: number = 24;
+  empArray = [
+    { empname: this.empname, isMarried: this.isMarried, age: this.age }
+  ]
 }
