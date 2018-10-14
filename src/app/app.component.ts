@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'This is the title properties value';
-  empname: string = "Tejas";
-  isMarried: boolean = false;
-  age: number = 24;
+  empname = 'Tejas';
+  isMarried = false;
+  age = 24;
   empArray = [
     { empname: this.empname, isMarried: this.isMarried, age: this.age }
-  ]
+  ];
 }

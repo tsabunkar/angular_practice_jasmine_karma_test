@@ -1,10 +1,15 @@
 export class DataService {
-  getDetails() {
+
+  getSurNameFromBackend() {
+
     const resultPromise = new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve('Data');
-      }, 1500);
+        resolve('Sabunkar');
+      }, 2000);
     });
+
     return resultPromise;
+
   }
+
 }

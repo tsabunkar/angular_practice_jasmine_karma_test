@@ -1,5 +1,11 @@
+import { Injectable } from '@angular/core';
+
+@Injectable()
 export class UserService {
+
   user = {
-    name: 'Max'
+    name: 'Tejas'
   };
+
+  constructor() { }
 }
